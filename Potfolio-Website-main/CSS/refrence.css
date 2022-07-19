@@ -1,0 +1,62 @@
+.refrence {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5rem;
+  gap: 1rem;
+  background-image: url(/Potfolio-Website-main/images//images/background.svg);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
+.reflogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reflogo > img {
+  width: 5%;
+  padding-top: 3rem;
+}
+
+.reflogo > h1 {
+  font-size: 40px;
+  color: #733D95;
+}
+
+.reflogo > h3 {
+  font-size: 30px;
+  color: #FC7F9C;
+}
+
+@media only screen and (max-width: 800px) {
+  .reflogo > img {
+    width: 15%;
+  }
+}
+/*# sourceMappingURL=refrence.css.map */

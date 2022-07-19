@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./Potfolio-Website-main/images/background.svg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
+.background {
+  position: absolute;
+  max-width: 100%;
+  z-index: -1;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contactInfo > div > h3 {
+  margin: 5px;
+}
+
+.contactInfo > div {
+  min-width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar {
+  width: 20%;
+  height: 8px;
+  background-color: #fc7f9c;
+}
+
+.objective {
+  width: 80%;
+  color: #733d95;
+  font-size: 1.11rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 500;
+  padding: 3rem 0 3rem 0;
+}
+
+.objective > p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.infoheading {
+  color: #fc7f9c;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.info {
+  color: #733d95;
+  font-size: 20px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  color: #733d95;
+}
+
+.title > img {
+  width: 15%;
+}
+
+.title > h1 {
+  padding: 25px 0px 25px 0px;
+}
+
+.line {
+  width: 80%;
+  min-height: 2px;
+  background-color: #fc7f9c;
+}
+
+@media only screen and (max-width: 800px) {
+  .objective > p {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=site.css.map */
