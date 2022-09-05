@@ -40,7 +40,11 @@ body {
   max-width: 100%;
   z-index: -1;
 }
-
+.downloadCV
+{
+  margin-top: -90px; 
+  margin-bottom: -40px;
+}
 .contactInfo {
   display: -webkit-box;
   display: -ms-flexbox;

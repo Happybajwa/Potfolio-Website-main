@@ -109,6 +109,11 @@
   .logos
   {
     margin: 20px 0;
+    
+  }
+  .logos > div > h3
+  {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=hobbies.css.map */
